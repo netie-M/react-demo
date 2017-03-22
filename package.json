@@ -1,0 +1,33 @@
+{
+  "name": "react-demo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/netie-M/react-demo.git"
+  },
+  "keywords": [
+    "react","webpack","es6"
+  ],
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+},
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server  --port 8081  --inline --content-base ./build"
+  },
+  "devDependencies": {
+    "style-loader": "^0.15.0",
+    "url-loader": "^0.5.8",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "less-loader": "^4.0.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
